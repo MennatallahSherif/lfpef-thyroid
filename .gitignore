@@ -1,0 +1,19 @@
+# outputs, data and trained models are never committed
+outputs/
+synth/
+synth_out/
+data/
+*.keras
+*.h5
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.synctex.gz
+# OS
+.DS_Store
+Thumbs.db
